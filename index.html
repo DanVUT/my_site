@@ -1,370 +1,427 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>My Personal Page</title>
-        <link rel="stylesheet" href="css/col.css" media="all">
-        <link rel="stylesheet" href="css/2cols.css" media="all">
-        <link rel="stylesheet" href="css/3cols.css" media="all">
-        <link rel="stylesheet" href="css/4cols.css" media="all">
-        <link rel="stylesheet" href="css/5cols.css" media="all">
-        <link rel="stylesheet" href="css/6cols.css" media="all">
-        <link rel="stylesheet" href="css/7cols.css" media="all">
-        <link rel="stylesheet" href="css/8cols.css" media="all">
-        <link rel="stylesheet" href="css/9cols.css" media="all">
-        <link rel="stylesheet" href="css/10cols.css" media="all">
-        <link rel="stylesheet" href="css/11cols.css" media="all">
-        <link rel="stylesheet" href="css/12cols.css" media="all">
-        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="css/styles.css">
-        <link rel="stylesheet" type="text/css" href="css/queries.css">
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <header>
-            <nav>
-                <div class="row clearfix">
-                    <img src="resources/img/logo.svg">
-                    <i class="fa fa-bars fa-2x js--menu-button" aria-hidden="true"></i>
-                    <ul>
-                        <li><a href="#section-welcome">About Me</a></li>
-                        <li><a href="#section-experience">Job Experience</a></li>
-                        <li><a href="#section-skills">Skills</a></li>
-                        <li><a href="#section-portfolio">Portfolio</a></li>
-                        <li><a href="#section-contact">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-            
-            <div class="header-title">
-                <h1>it student.<br>programmer.<br>web developer.<br>technology enthusiast.</h1>
-                
-                <a href="#section-welcome" class="btn btn-ghost">Explore More</a>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daniel Florek</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body data-spy="scroll" data-target="#navigation">
+    <header>
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top ">
+        <div class="container">
+          <a href="#" class="navbar-brand">
+            <i class="fas fa-terminal"></i>
+            <h5 class="d-inline ml-1">Daniel Florek</h5>
+          </a>
+          <button class="navbar-toggler">
+            <span
+              class="navbar-toggler-icon"
+              data-toggle="collapse"
+              data-target="#navigation"
+            ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#about-section" class="nav-link font-weight-normal">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#job-section" class="nav-link font-weight-normal">Work Experience</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#skills-section" class="nav-link font-weight-normal">Skills</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#portfolio-section" class="nav-link font-weight-normal">Portfolio</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#contact-section" class="nav-link font-weight-normal">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Header Section -->
+    <section id="header-section">
+      <div class="d-flex w-100 h-100 align-items-center dark-overlay">
+        <div class="container text-white">
+          <h1 class="display-4">IT student.</h1>
+          <h1 class="display-4">Programmer.</h1>
+          <h1 class="display-4">Web Developer.</h1>
+          <h1 class="display-4">Technology enthusiast.</h1>
+          <a href="#about-section" class="btn btn-outline-success mt-4"
+            >Explore More</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about-section" class="py-5">
+      <h1 class="text-center font-weight-normal underline">Welcome</h1>
+      <div class="container mt-4">
+        <div class="row">
+          <div class="col-md-8 mx-auto col-sm-12">
+            <p class="lead">
+              My name is Daniel Florek. I am a programmer/web developer from
+              Košice, Slovakia. Not long time ago I had finished my Bachelor's
+              degree at
+              <a href="https://www.vutbr.cz/" class="text-vutred"
+                >Brno University of Technology in Brno</a
+              >
+              and returned back to Slovakia. Here I got employed in the company
+              <a href="https://www.softwareag.com/" class="text-sagblue"
+                >SoftwareAG</a
+              >
+              where I worked for 8 months as Aris Cloud Team member. Afterwards
+              I started Master's degree studies at Košice Technical University.
+              Feel free to explore contents of this page or contact me through
+              provided contacts.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="job-section" class="bg-light py-5">
+      <h1 class="text-center font-weight-normal underline">
+        Work Experience
+      </h1>
+
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-4 offset-md-2 mb-4">
+            <div class="card">
+              <img src="img/robertshaw-logo.png" class="card-img-top" />
+              <hr>
+              <div class="card-body">
+                <h4 class="card-title">Small Utilities Programmer</h5>
+                <p class="card-text">
+                  My first IT work experience. It was a summer student job. My
+                  two prior tasks were writing simple assisting software
+                  utilities for people in office and also software for
+                  production hall. Software for people in the office was
+                  primarily in VBA in Access/Excel or some small programs they
+                  needed (files sorting based on contents etc). For production
+                  hall I wrote several applications that were controlling ZEBRA
+                  label printers. Main technologies I used during this summer
+                  job were VBA, VB and C#.
+                </p>
+              </div>
             </div>
-        </header>
-        
-        
-        <section class="section-welcome" id="section-welcome">
-            <div class="row">
-                <h2>Welcome</h2>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/software-ag1.png" class="card-img-top" />
+              <hr>
+              <div class="card-body">
+                <h4 class="card-title">Aris Cloud Team</h5>
+                <p class="card-text">
+                  First job after finishing of Bachelor's studies. I was
+                  assigned to Aris Cloud Team. My first task was getting
+                  SoftwareAG's online product Aris Cloud on the Amazon
+                  Marketplace. So I and my colleague created a connector between
+                  Amazon Marketplace and Aris Cloud that allowed to create
+                  account on Aris Cloud after creating a contract on Amazon
+                  Marketplace. As implementation technology we used Spring Boot
+                  with plugin Thymeleaf. My second task was re-writing one
+                  module of Aris Cloud from PHP into Angular frontend with Java
+                  (Spring Boot) backend so it would be more scalable and more
+                  future-proofed. I worked here for 8 months.
+                </p>
+              </div>
             </div>
-            <div class="row">
-                <p>My name is Daniel Florek. I am a programmer/web developer from Ko&scaron;ice, Slovakia. Not long time ago I had finished my Bachelor's degree at <a style="color: #E5002B" href="https://www.vutbr.cz/en/">Brno University of Technology in Brno</a> and returned back to Slovakia. Here I got employed in the company <a style="color: #089ACD" href="https://www.softwareag.com/corporate/default.html">SoftwareAG</a> where I worked for 8 months as Aris Cloud Team member. Afterwards I started Master's degree studies at Ko&scaron;ice Technical University. Feel free to explore contents of this page or contact me through provided contact.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills-section" class="py-5">
+      <h1 class="text-center font-weight-normal underline">
+        Technical Skills
+      </h1>
+
+      <div class="container mt-5 text-white px-4">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 mx-auto bg-dark rounded  py-3" data-toggle="tooltip" data-placement="right" title="Graph values show combination of projects done in concrete technology, self-study of technology and overall confidence with particular technology">
+            <!-- Java Progress -->
+            <div class="mb-2">
+              <h5 class="mb-1">Java</h5>
+              <div class="progress">
+                <div class="progress-bar" style="width: 100%;">100%</div>
+              </div>
             </div>
-        </section>
-        
-        <section class="section-experience" id="section-experience">
-            <div class="row">
-                <h2>Work experience</h2>
+
+            <div class="mb-2">
+              <h5 class="mb-1">C# (WPF)</h5>
+              <div class="progress">
+                <div class="progress-bar" style="width: 100%;">100%</div>
+              </div>
             </div>
-            
-            <div class="row group">
-                <div class="col span_1_of_2">
-                    <div class="job-box">
-                        <img src="resources/img/robertshaw-logo.png" alt="Robershaw Logo">
-                        <h3>Summer Part-time job</h3>
-                        <p class="description">My first IT work experience. My two prior tasks were writing simple assisting software utilities for people in office and also software for production hall.
-                            Software for people in the office was primarily in VBA in Access/Excel or some small programs they needed (files sorting based on contents etc). For production hall I wrote several applications that were controlling ZEBRA label printers. Main technologies I used during this summer job were VBA, VB and C#.
-                        </p>
-                    </div>
-                </div>
-                <div class="col span_1_of_2">
-                    <div class="job-box">
-                        <img src="resources/img/software-ag1.png" alt="SoftwareAG Logo">
-                        <h3>Aris Cloud Team</h3>
-                        <p class="description">My first work after finishing of Bachelor's studies. I was assigned to Aris Cloud Team.
-                            My first task was getting SoftwareAG's online product Aris Cloud on the Amazon Marketplace. So I and my colleague created a connector between Amazon Marketplace and Aris Cloud that allowed to create account on Aris Cloud after customer created contract on Amazon Marketplace. As implementation technology we used Spring Boot with plugin Thymeleaf.
-                            My second task was re-writing one module of Aris Cloud from PHP into Angular frontend with Java (Spring Boot) backend so it would be scalable and more future-proofed. I worked here for 8 months.
-                        </p>
-                    </div>
-                </div>
+
+            <div class="mb-2">
+              <h5 class="mb-1">Angular</h5>
+              <div class="progress">
+                <div class="progress-bar" style="width: 85%;">85%</div>
+              </div>
             </div>
-        </section>
-        
-        <section class="section-skills" id="section-skills">
-            <div class="row">
-                <h2>Technical Skills</h2>
-            </div>
-            
-            <div class="row">
-                <div class="skills-box">
-                    <div class="skill-box">
-                        <div class="skill-header">
-                            <p>Java</p>
-                        </div>
-                        
-                        <div class="skill">
-                            <div class="skill-level" style="width: 100%;">&nbsp;</div>
-                        </div>
-                    </div>
-                    
-                    <div class="skill-box">
-                        <div class="skill-header">
-                            <p>C# (WPF)</p>
-                        </div>
-                        
-                        <div class="skill">
-                            <div class="skill-level" style="width: 100%;">&nbsp;</div>
-                        </div>
-                    </div>
-                    
-                    <div class="skill-box">
-                        <div class="skill-header">
-                            <p>Angular</p>
-                        </div>
-                        
-                        <div class="skill">
-                            <div class="skill-level" style="width: 85%;">&nbsp;</div>
-                        </div>
-                    </div>
-                    
-                    <div class="skill-box">
-                        <div class="skill-header">
-                            <p>Spring Boot</p>
-                        </div>
-                        <div class="skill">
-                            <div class="skill-level" style="width: 80%;">&nbsp;</div>
-                        </div>
-                    </div>
-                    
-                    <div class="skill-box">
-                        <div class="skill-header">
-                            <p>C/C++</p>
-                        </div>
-                        
-                        <div class="skill">
-                            <div class="skill-level" style="width: 75%;">&nbsp;</div>
-                        </div>
-                    </div>
-                    
-                    <div class="skill-box">
-                        <div class="skill-header">
-                            <p>Web Development</p>
-                        </div>
-                        
-                        <div class="skill">
-                            <div class="skill-level" style="width: 70%;">&nbsp;</div>
-                        </div>
-                    </div>
-                                        
-                    <div class="skill-box">
-                        <div class="skill-header">
-                            <p>SQL</p>
-                        </div>
-                        
-                        <div class="skill">
-                            <div class="skill-level" style="width: 50%;">&nbsp;</div>
-                        </div>
-                    </div>
-                    
-                    <div class="skill-box">
-                        <div class="skill-header">
-                            <p>GIT</p>
-                        </div>
-                        
-                        <div class="skill">
-                            <div class="skill-level" style="width: 50%;">&nbsp;</div>
-                        </div>
-                    </div>
-                    
-                    <p class="info">* <i>Chart bars represent evaluation of experience and overall confidence with particular technology</i></p>
-                </div>
-            </div>
-        </section>
-        
-        
-        <section class="section-portfolio" id="section-portfolio">
-            <h2>Project Porfolio</h2>
-            <div class="portfolio-row group">
-                
-                <div class="col span_1_of_4">
-                    <a href="https://github.com/DanVUT/PseudojavaInterpret" target="_blank">
-                        <div class="project-box">
-                            <div class="project-header">
-                                <h3>Pseudo-Java Interpreter</h3>
-                                <h4>C</h4>
-                            </div>
-                            <p>Target of this project was creating a simplified Java interpreter. We were working as a team of five people. In the end our interpret finished as fifth best in speed test.</p>
-                        </div>
-                    </a>
-                </div>
-                
-                <div class="col span_1_of_4">
-                    <a href="https://github.com/DanVUT/QtFrameworkPhotoViewer" target="_blank">
-                        <div class="project-box">
-                            <div class="project-header">
-                                <h3>Photo-Viewing Application</h3>
-                                <h4>Qt Framework (C++)</h4>
-                            </div>
-                            <p>In this project we could pick one of commonly used application types and bring something own to the concept. So we picked and created desktop Photo Viewing application that can group photos together no matter what their physical location is.</p>
-                        </div>
-                    </a>
-                </div>
-                
-                <div class="col span_1_of_4">
-                    <a href="https://github.com/DanVUT/PolynomialPython" target="_blank">
-                        <div class="project-box">
-                            <div class="project-header">
-                                <h3>Polynomial Calculator</h3>
-                                <h4>Python</h4>
-                            </div>
-                            <p>This was simple application that represented polynomials as lists. It could add together polynomials. Power polynomials by certain number and derivate them.</p>
-                        </div>
-                    </a>
-                </div>
-                
-                <div class="col span_1_of_4">
-                    <a href="https://github.com/DanVUT/SolitaireGameCLIandGUI" target="_blank">
-                        <div class="project-box">
-                            <div class="project-header">
-                                <h3>Solitaire Game</h3>
-                                <h4>Qt Framework (C++)</h4>
-                            </div>
-                            <p>This was also a team project of 2 people. The goal was to create Solitaire game both GUI and CLI.</p>
-                        </div>
-                    </a>
-                </div>
-                
+
+            <div class="mb-2">
+              <h5 class="mb-1">Spring Boot</h5>
+              <div class="progress">
+                <div class="progress-bar" style="width: 75%;">75%</div>
+              </div>
             </div>
             
-            <div class="portfolio-row group">
-                <div class="col span_1_of_4">
-                    <a href="https://github.com/DanVUT/HTTPclient-server" target="_blank">
-                        <div class="project-box">
-                            <div class="project-header">
-                                <h3>HTTP storage server + client application</h3>
-                                <h4>C++</h4>
-                            </div>
-                            <p>In this project we had to create both Server and Client storage application. Server was listening on given port and client could connect through TCP and upload/download files with HTTP requests.</p>
-                        </div>
-                    </a>
-                </div>
-                
-                <div class="col span_1_of_4">
-                    <a href="https://github.com/DanVUT/Chatclientonly" target="_blank">
-                        <div class="project-box">
-                            <div class="project-header">
-                                <h3>Chat client application</h3>
-                                <h4>C++</h4>
-                            </div>
-                            <p>This task was create simple chat client application. School provided us simple server application that broadcasted messages to all connected nodes and we had to implement client application that was compatible with server application.</p>
-                        </div>
-                    </a>
-                </div>
-                
-                <div class="col span_1_of_4">
-                    <a href="https://github.com/DanVUT/webinformacnysystem" target="_blank">
-                        <div class="project-box">
-                            <div class="project-header">
-                                <h3>Simple Information System</h3>
-                                <h4>HTML + CSS + JS + SQL</h4>
-                            </div>
-                            <p>Another team project of 2 people. We had to create web application that allowed user to keep track of things in possession and where they are located. It simulated "storage application".</p>
-                        </div>
-                    </a>
-                </div>
-                
-                <div class="col span_1_of_4">
-                    <a href="https://github.com/DanVUT/POP3_Klient" target="_blank">
-                        <div class="project-box">
-                            <div class="project-header">
-                                <h3>POP3 Mail client</h3>
-                                <h4>C++</h4>
-                            </div>
-                            <p>Target of this project was mail client by POP3 standard. Application connected to POP3 server, downloaded messages and user could set if they also should be deleted from server or not. It worked insecurely and also securely. User could explicitly specify what certificates application should use.</p>
-                        </div>
-                    </a>
-                </div>
-                
+            <div class="mb-2">
+              <h5 class="mb-1">Web Development</h5>
+              <div class="progress">
+                <div class="progress-bar" style="width: 65%;">65%</div>
+              </div>
             </div>
-            
-            <div class="portfolio-row group">
-                
-                <div class="col span_1_of_4">
-                    <a href="https://github.com/DanVUT/BitTorrentDetection" target="_blank">
-                        <div class="project-box">
-                            <div class="project-header">
-                                <h3>BitTorrent Detection in Network Traffic (Thesis)</h3>
-                                <h4>Python</h4>
-                            </div>
-                            <p>Goal of my Bachelor's thesis summarized concepts of capturing of network traffic and finding best methods for analysis of captured packets in order to find BitTorrent Protocol traffic. My detection was working with unsecured and also with encrypted traffic. It detected unsecured connection basically with 100% accuracy. Secured connection analysis was a little bit less accurate as expected. The output of my script were IP addresses with Ports in XML format that were convinced or suspected of participating in BitTorrent traffic.</p>
-                        </div>
-                    </a>
-                </div>
-                
-                <div class="col span_1_of_4">
-                    <div class="project-box">
-                        <div class="project-header">
-                            <h3>Aris Cloud AWS Marketplace</h3>
-                            <h4>Spring Boot + Thymeleaf</h4>
-                        </div>
-                        <p>Aris Cloud was supposed to go on Amazon AWS Marketplace. So I and my colleague created a connector between Aris Cloud and AWS Marketplace where customer was redirected after his contract was created on Marketplace. The connector provided a registration form for creating an Aris Cloud account.</p>
-                    </div>
-                </div>
-                
-                <div class="col span_1_of_4">
-                    <div class="project-box">
-                        <div class="project-header">
-                            <h3>Aris Cloud login module and administration module rework</h3>
-                            <h4>Spring Boot + Angular</h4>
-                        </div>
-                        <p>Aris Cloud's login and administration module was written in PHP as temporary solution. So we reworked these modules to Angular frontend and Spring Boot backend so it is future-proofed and easily scalable.</p>
-                    </div>
-                </div>
-                
-                <div class="col span_1_of_4">
-                    <a href="https://github.com/DanVUT/SportsDirector" target="_blank">
-                        <div class="project-box">
-                            <div class="project-header">
-                                <h3>Sports Director</h3>
-                                <h4>C# WPF</h4>
-                            </div>
-                            <p>Real time video director that could take live video input either from online stream or hardware device and output this live source to external video output. It could also substitute live input for local media (video/picture) for advertisement purposes. Application could also record this live input and create highlights from it. These highlights could also be played on external video output device. Application is supposed to be used on sport stadiums for operating big presentation screens and show the playground, score, advertisements, higlights etc.</p>
-                        </div>
-                    </a>
-                </div>
-                
-                
+
+            <div class="mb-2">
+              <h5 class="mb-1">Python</h5>
+              <div class="progress">
+                <div class="progress-bar" style="width: 60%;">60%</div>
+              </div>
             </div>
-        </section>
-        
-        <section class="section-contact" id="section-contact">
-            <h2>Contact</h2>
-            <div class="row" style="text-align: center;">
-                <a href="mailto:daniel.florek1996@gmail.com"><img src="resources/img/gmail.svg" alt="Gmail logo"></a>
-                <a href="https://www.linkedin.com/in/daniel-florek-b57669165"><img src="resources/img/linkedin.svg" alt="Linkedin logo"></a>
+
+            <div class="mb-2">
+              <h5 class="mb-1">C/C++</h5>
+              <div class="progress">
+                <div class="progress-bar" style="width: 55%;">55%</div>
+              </div>
             </div>
-        </section>
-        
-        <footer>
-            <div class="row group">
-                <div class="col span_1_of_2">
-                    <ul class="footer-navigation">
-                        <li><a href="#section-welcome">About Me</a></li>
-                        <li><a href="#section-experience">Job Experience</a></li>
-                        <li><a href="#section-skills">Skills</a></li>
-                        <li><a href="#section-portfolio">Portfolio</a></li>
-                        <li><a href="#section-contact">Contact</a></li>
-                    </ul>
-                </div>
-                
-                <div class="col span_1_of_2">
-                    <ul class="footer-social">
-                        <li><a href="mailto: daniel.florek1996@gmail.com"><i class="fa fa-envelope-square" aria-hidden="true"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/daniel-florek-b57669165"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                    </ul>
-                </div>
+
+            <div class="mb-2">
+              <h5 class="mb-1">SQL</h5>
+              <div class="progress">
+                <div class="progress-bar" style="width: 50%;">50%</div>
+              </div>
             </div>
-            <div class="row">
-                <p>Created by Daniel Florek</p>
+
+            <div>
+              <h5 class="mb-1">GIT</h5>
+              <div class="progress">
+                <div class="progress-bar" style="width: 50%;">50%</div>
+              </div>
             </div>
-        </footer>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio-section" class="py-5 bg-light">
+      <h1 class="text-center font-weight-normal underline mb-5">Projects Portfolio</h1>
+
+      <div class="card-columns px-4">
+        <!-- Pseudo-Java Interpreter -->
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Pseudo-Java Interpreter</h5>
+            <h6 class="card-subtitle text-muted">C</h6>
+            <hr>
+            <p class="card-text">Target of this project was creating a simplified Java interpreter. We were working as a team of five people. In the end our interpret finished as fifth best in speed test.</p>
+          </div>
+        </div>
+
+        <!-- Photo-Viewing Application -->
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Photo-Viewing Application</h5>
+            <h6 class="card-subtitle text-muted">Qt Framework (C++)</h6>
+            <hr>
+            <p class="card-text">In this project we could pick one of commonly used application types and bring something own to the concept. So we picked and created desktop Photo Viewing application that can group photos together no matter what their physical location is.</p>
+          </div>
+        </div>
+
+        <!-- Polynomial Calculator -->
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Polynomial Calculator</h5>
+            <h6 class="card-subtitle text-muted">Python</h6>
+            <hr>
+            <p class="card-text">This was simple application that represented polynomials as lists. It could add together polynomials. Power polynomials by certain number and derivate them.</p>
+          </div>
+        </div>
+
+        <!-- Solitaire Game -->
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Solitaire Game</h5>
+            <h6 class="card-subtitle text-muted">Qt Framework (C++)</h6>
+            <hr>
+            <p class="card-text">This was also a team project of 2 people. The goal was to create Solitaire game both GUI and CLI.</p>
+          </div>
+        </div>
+
+        <!-- Rest Storage Server -->
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">REST storage server + client application</h5>
+            <h6 class="card-subtitle text-muted">C++</h6>
+            <hr>
+            <p class="card-text">In this project we had to create both Server and Client storage application. Server was listening on given port and client could connect through TCP and upload/download files with HTTP requests.</p>
+          </div>
+        </div>
+
+        <!-- Chat client application -->
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Chat client application</h5>
+            <h6 class="card-subtitle text-muted">C++</h6>
+            <hr>
+            <p class="card-text">This task was create simple chat client application. School provided us simple server application that broadcasted messages to all connected nodes and we had to implement client application that was compatible with server application.</p>
+          </div>
+        </div>
+
+        <!-- Simple information system -->
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Simple information system</h5>
+            <h6 class="card-subtitle text-muted">HTML + CSS + JS + SQL</h6>
+            <hr>
+            <p class="card-text">Another team project of two people. We had to create web application that allowed user to keep track of things in possession and where they are located. It simulated "storage application".</p>
+          </div>
+        </div>
+
+        <!-- POP3 Mail Client -->
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">POP3 Mail Client</h5>
+            <h6 class="card-subtitle text-muted">C++</h6>
+            <hr>
+            <p class="card-text">Target of this project was mail client by POP3 standard. Application connected to POP3 server, downloaded messages and user could set if they also should be deleted from server or not. It worked insecurely and also securely. User could explicitly specify what certificates application should use.</p>
+          </div>
+        </div>
+
+        <!-- BitTorrent Detection in Network Traffic -->
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">BitTorrent Detection in Network Traffic (Thesis)</h5>
+            <h6 class="card-subtitle text-muted">Python</h6>
+            <hr>
+            <p class="card-text">Goal of my Bachelor's thesis summarized concepts of capturing of network traffic and finding best methods for analysis of captured packets in order to find BitTorrent Protocol traffic. My detection was working with unsecured and also with encrypted traffic. It detected unsecured connection basically with 100% accuracy. Secured connection analysis was a little bit less accurate as expected. The output of my script were IP addresses with Ports in XML format that were convinced or suspected of participating in BitTorrent traffic.</p>
+          </div>
+        </div>
+
+        <!-- Aris Cloud AWS Marketplace -->
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Aris Cloud AWS Marketplace</h5>
+            <h6 class="card-subtitle text-muted">Spring Boot + Thymeleaf</h6>
+            <hr>
+            <p class="card-text">Aris Cloud was supposed to go on Amazon AWS Marketplace. So I and my colleague created a connector between Aris Cloud and AWS Marketplace where customer was redirected after his contract was created on Marketplace. The connector provided a registration form for creating an Aris Cloud account.</p>
+          </div>
+        </div>
         
+        <!-- Aris Cloud Login Module -->
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Aris Cloud login module and administration rework</h5>
+            <h6 class="card-subtitle text-muted">Spring Boot + Angular</h6>
+            <hr>
+            <p class="card-text">Aris Cloud's login and administration module was written in PHP as temporary solution. So we reworked these modules to Angular frontend and Spring Boot backend so it is future-proofed and easily scalable.</p>
+          </div>
+        </div>
+
+        <!-- Sports Director -->
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Sports Director</h5>
+            <h6 class="card-subtitle text-muted">C# WPF</h6>
+            <hr>
+            <p class="card-text">Real time video director that could take live video input either from online stream or hardware device and output this live source to external video output. It could also substitute live input for local media (video/picture) for advertisement purposes. Application could also record this live input and create highlights from it. These highlights could also be played on external video output device. Application is supposed to be used on sport stadiums for operating big presentation screens and show the playground, score, advertisements, higlights etc.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-section" class="py-5">
+      <h1 class="text-center underline font-weight-normal mb-5">Contact</h1>
+
+      <div class="d-flex justify-content-center flex-wrap">
+        <div class="p-2 rounded-circle contact">
+          <a href="mailto:daniel.florek1996@gmail.com" target="_blank" >
+            <img class="link-logo" src="img/gmail.svg">
+          </a>
+        </div>
         
-        
-        
-        
-        <script src="resources/js/code.js"></script>
-    </body>
+        <div class="p-2 rounded-circle contact">
+          <a href="https://www.linkedin.com/in/daniel-florek-b57669165/" target="_blank" >
+            <img class="link-logo" src="img/linkedin.svg">
+          </a>
+        </div>
+
+        <div class="p-2 rounded-circle contact">
+          <a href="https://github.com/DanVUT" target="_blank" >
+            <img class="link-logo" src="img/github.svg">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-4 bg-dark">
+      <p class="text-muted text-center m-0">Copyright &copy; Daniel Florek</p>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/57264cf843.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      });
+
+      $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+          if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function() {
+              window.location.hash = hash;
+            });
+          } 
+        });
+      });
+    </script>
+  </body>
 </html>
